@@ -26,11 +26,6 @@ mongoose
   });
 
 //routes
-app.get("/", (req, res) => {
-  res.send("APP is Running !!");
-});
-
-//routes
 app.use("/api",authRoutes);
 app.use("/api",noteRoutes);
 
